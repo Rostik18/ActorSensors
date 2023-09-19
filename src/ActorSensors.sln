@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorSensors", "ActorSensors\ActorSensors.csproj", "{5AC734F1-C3DF-4DE5-86A6-E4FED6E65328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActorSensors", "ActorSensors\ActorSensors.csproj", "{5AC734F1-C3DF-4DE5-86A6-E4FED6E65328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorSensors.Domain", "ActorSensors.Domain\ActorSensors.Domain.csproj", "{201E0128-DA97-4224-81F0-1E19249C12D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5AC734F1-C3DF-4DE5-86A6-E4FED6E65328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AC734F1-C3DF-4DE5-86A6-E4FED6E65328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AC734F1-C3DF-4DE5-86A6-E4FED6E65328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201E0128-DA97-4224-81F0-1E19249C12D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201E0128-DA97-4224-81F0-1E19249C12D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201E0128-DA97-4224-81F0-1E19249C12D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201E0128-DA97-4224-81F0-1E19249C12D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
